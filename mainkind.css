@@ -1,0 +1,130 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+.divimg {
+    height:200px;
+    background-image: url(headpicture.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:contain;
+}
+h4 {
+    color: white;
+    text-align: center;
+    font-size:30px;
+    padding:20px 0px;
+    font-family:宋体;
+}
+audio{/*音乐播放组件*/
+    position:fixed;
+    margin:20px auto;
+    bottom:10px;
+}
+body{
+    background-image:url(background.jpg);
+    background-position:0px 150px;
+    background-repeat:no-repeat
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    line-height: 30px;
+    width: 80px;
+    color:white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+        
+}
+.letter {
+    float:right;
+    line-height: 30px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+table{
+    margin:0px auto;
+    width:200px;
+    margin:50px auto;
+    border:1px solid transparent;
+    
+}
+/*单独设置表格每一列的格式*/
+.td1 {
+    text-align:center;
+    width: 30px;
+}
+.td2 {
+    text-align: center;
+    width: 50px;
+}
+.td3 {
+    text-align: center;
+    width: 100px;
+}
+/*设置表格每一行样式*/
+.tr1 {
+    height:30px;
+    background-color: #fb7ef5;
+}
+
+.tr2 {
+    height: 30px;
+    background-color: #ff6699;
+}
+
+.tr3 {
+    height: 30px;
+    background-color: #366af8;
+}
+/*当前时间字样样式*/
+.time{ 
+    height:30px;
+    width:100px;
+    line-height:30px;
+    text-align:center;
+    margin:0 auto;
+    color:white;
+    font-size:20px;
+}
+/*时间样式*/
+.report {
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    /*border:1px solid white;*/
+    /*background-color:#ff6699;*/
+}
+
+/*联系作者界面的样式*/
+.admin{
+    margin:30px auto 0 auto;
+    text-align:center;
+    color:white;
+    
+}
+.mail {
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    font-family:微软雅黑;
+}
