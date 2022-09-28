@@ -6,50 +6,37 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>村鱼的SK记事</title>
     <link type="text/css" rel="stylesheet" href="mainkind.css"/>
-    <script charset="gb2312" src="main.js"></script>
+    <script charset="gb2312" src="main.js" content='text/html'></script>
 </head>
 <body>
-    <div class="divimg">
+    <div class="divimg1">
         <h4>村鱼的SK记事</h4>
     </div>
+
     <ul>
         <li><a href="main.html">首页</a></li>
-        <li><a href="callme.html">联系村鱼</a></li>
-        <li><div class="letter">一些话</div></li>
+        <li><a href="video.html">视频</a></li>
+        <li><div class="letter">弹窗</div></li>
     </ul>
-    <table>
-        <tr class="tr1">
-            <td class="td1">😊</td>
-            <td class="td2">相识</td>
-            <td class="td3">2021-01-02</td>
-        </tr>
-        <tr class="tr2">
-            <td class="td1">💕</td>
-            <td class="td2">恋爱</td>
-            <td class="td3">2021-01-04</td>
-        </tr>
-        <tr class="tr3">
-            <td class="td1">😔</td>
-            <td class="td2">分手</td>
-            <td class="td3">2022-02-21</td>
-        </tr>
-    </table>
-    <div class="time">当前时间</div>
-    <div class="report">
-        <script>
-            var weekDayLabels = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
-            var now = new Date();
-            var year = now.getFullYear();
-            var month = now.getMonth() + 1;
-            var day = now.getDate()
-            var currentime = '<span class="special">' + year + '年' + month + '月' + day + '日' + weekDayLabels[now.getDay()] + '</span><br>'
-            document.write(currentime)
-        </script>
+    <div class="tip">💡：底部可以播放音乐哦</div>
+    <div class="maintext">
+        🗒️作者引言：这个网站一开始创建的目的是存放一些
+        <a class="hidelink" href="self.html">过去的记忆</a>
+        吧，但是因为一些特殊原因，作者无法坦然地去展示这段过去。所以此网站用于个人娱乐，作者会时不时加入新元素，让网站资源更加丰富。
     </div>
 
-    <audio controls="controls">
-        <source src="后来的我们.mp3" type="audio/mp3" />
-        <source src="后来的我们.ogg" type="audio/ogg" />
-    </audio>
+    <div class="time">🕑当前日期</div>
+
+    <!--计算日期-->
+    <div class="report"></div>
+    <!--计算时间，小时、分钟、秒-->
+    <div class="ntime"></div>
+
+    <div class="music" align="center">
+        <audio controls="controls">
+            <source src="后来的我们.mp3" type="audio/mp3" />
+            <source src="后来的我们.ogg" type="audio/ogg" />
+        </audio>
+    </div>
 </body>
 </html>
