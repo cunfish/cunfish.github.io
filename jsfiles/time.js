@@ -4,7 +4,7 @@
  var tday = null;
  function daytime() {
      clearTimeout(tday);
-     var weekDayLabels = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+     var weekDayLabels = new Array("周日","周一","周二","周三","周四","周五","周六");
      var now = new Date();
      var year = now.getFullYear();
      var month = now.getMonth() + 1;//获取月，从 Date 对象返回月份 (0 ~ 11)，故在此处+1
