@@ -9,7 +9,7 @@
      var year = now.getFullYear();
      var month = now.getMonth() + 1;//获取月，从 Date 对象返回月份 (0 ~ 11)，故在此处+1
      var day = now.getDate();
-     return '<span class="special">' + year + '年' + month + '月' + day + '日' + weekDayLabels[now.getDay()] + '</span><br>';
+     return '<span class="special">' + year + '/' + month + '/' + day + '/' + weekDayLabels[now.getDay()] + '</span><br>';
 
  }
  setInterval(function () {
