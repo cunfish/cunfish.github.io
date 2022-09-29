@@ -1,13 +1,13 @@
-// JavaScript source code
+ï»¿// JavaScript source code
 
- /*¼ÆËãÈÕÆÚ£¬ÄêÔÂÈÕ Ò»ÃëÖÓË¢ĞÂÒ»´Î*/
+ /*è®¡ç®—æ—¥æœŸï¼Œå¹´æœˆæ—¥ ä¸€ç§’é’Ÿåˆ·æ–°ä¸€æ¬¡*/
  var tday = null;
  function daytime() {
      clearTimeout(tday);
-     var weekDayLabels = new Array("ÖÜÈÕ","ÖÜÒ»","ÖÜ¶ş","ÖÜÈı","ÖÜËÄ","ÖÜÎå","ÖÜÁù");
+     var weekDayLabels = new Array("å‘¨æ—¥","å‘¨ä¸€","å‘¨äºŒ","å‘¨ä¸‰","å‘¨å››","å‘¨äº”","å‘¨å…­");
      var now = new Date();
      var year = now.getFullYear();
-     var month = now.getMonth() + 1;//»ñÈ¡ÔÂ£¬´Ó Date ¶ÔÏó·µ»ØÔÂ·İ (0 ~ 11)£¬¹ÊÔÚ´Ë´¦+1
+     var month = now.getMonth() + 1;//è·å–æœˆï¼Œä» Date å¯¹è±¡è¿”å›æœˆä»½ (0 ~ 11)ï¼Œæ•…åœ¨æ­¤å¤„+1
      var day = now.getDate();
      return '<span class="special">' + year + '/' + month + '/' + day + '/' + weekDayLabels[now.getDay()] + '</span><br>';
 
@@ -17,7 +17,7 @@
  }, 1000)
 
 
- /*¼ÆËãÊ±¼äĞ¡Ê±·ÖÖÓÓëÃë£¬Ò»ÃëÖÓË¢ĞÂÒ»´Î*/
+ /*è®¡ç®—æ—¶é—´å°æ—¶åˆ†é’Ÿä¸ç§’ï¼Œä¸€ç§’é’Ÿåˆ·æ–°ä¸€æ¬¡*/
  var t = null;
  function nowtime() {
      clearTimeout(t);
