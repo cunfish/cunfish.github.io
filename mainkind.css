@@ -58,7 +58,7 @@ li a {
 .letter {
     float:right;
     line-height: 30px;
-    width: 80px;
+    width: 50px;
     color: white;
     text-align: center;
     padding: 14px 15px;
@@ -67,6 +67,36 @@ li a {
 .tip{
     color:yellow;
     font-size:12px;
+}
+/*首页头像旋转*/
+.headimg {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+@-webkit-keyframes rotation {
+
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.himg {
+    -webkit-transform: rotate(360deg);
+    animation: rotation 10s linear infinite;
+    -moz-animation: rotation 10s linear infinite;
+    -webkit-animation: rotation 10s linear infinite;
+    -o-animation: rotation 10s linear infinite;
+}
+
+.himg {
+    border-radius: 250px;
+    text-align:center;
 }
 
 /*首页作者引言样式*/
@@ -114,7 +144,7 @@ li a {
     width:150px;
     line-height:30px;
     text-align:center;
-    margin:0 auto;
+    margin:5px auto;
     color:#ffe9a1;
     font-size:20px;
 }
@@ -136,26 +166,32 @@ li a {
     margin: 0 auto;
     color: white;
     font-size: 18px;
+    padding-bottom:20px;
 }
 
 
 /*视频界面的样式*/
 .mvtitle {
     padding: 10px 0 0 0;
+    margin: 0 auto;
     color: white;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .mvtitle img{
     margin:0 auto;
-    background-attachment:fixed;
-    background-size:contain;
     height:210px;
+    width:100%;
+/*    background-attachment:fixed;*/
+/*    background-size:contain;*/
+    
 }
 .video1 {
     position: relative;
     width: 100%;
-    padding-bottom: 70%;
+/*    bottom:10px;*/
+    padding-bottom:75%;
     top:5px;
 }
 .video1 iframe {
@@ -166,9 +202,30 @@ li a {
     top: 0;
 }
 
+/*影视资源界面*/
+.resourcelink {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius:5px;
+
+}
+
+.resourcelink a{
+    color:white;
+    text-decoration:none;
+    line-height:35px;
+    font-size:18px;
+    border:1px solid #815d7f;
+    background-color:#815d7f;
+}
+.tdlink{
+    color:white;
+    padding:10px 0;
+}
+
 /*隐藏界面样式*/
 table {
-    margin: 0px auto;
     width: 200px;
     margin: 50px auto;
     border: 1px solid transparent;
