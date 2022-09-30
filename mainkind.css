@@ -3,27 +3,24 @@
     padding:0px;
 }
 .divimg1 {
-    height:200px;
+    height: 200px;
     background-image: url(picture/headpicture.jpg);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
-.divimg2 {  /*视频界面头图*/
+.divimg2 { /*视频界面头图*/
     height: 200px;
     background-image: url(picture/missyou.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
-.positonfixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-}
+
 
 h4 {
     color: white;
