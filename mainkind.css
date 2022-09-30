@@ -7,8 +7,8 @@
     width:100%;
     background-image: url(picture/headpicture.jpg);
     background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: contain;
 
 }
 .divimg2 { /*视频界面头图*/
@@ -19,14 +19,17 @@
     background-size: cover;
 
 }
+.occupy{
+    height:200px;
+}
 
 
 h4 {
     color: white;
     text-align: center;
-    font-size:30px;
-    padding:20px 0px;
-    font-family:宋体;
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: SimSun;
 }
 .music { /*音乐播放组件*/
     left: 0;
@@ -106,13 +109,13 @@ li a {
 }
 
 /*首页作者引言样式*/
-.maintext{  
-    color:white;
-    padding:20px 15px;
-    text-align:center;
-    font-size:15px;
-    line-height:30px;
-    font-family:宋体;
+.maintext {
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: SimSun;
 }
 
 /*单独设置表格每一列的格式*/
@@ -155,7 +158,7 @@ li a {
     font-size:20px;
 }
 /*时间样式*/
-.report{
+.report {
     height: 30px;
     width: 200px;
     line-height: 30px;
@@ -163,6 +166,7 @@ li a {
     margin: 0 auto;
     color: white;
     font-size: 18px;
+    font-family: PingFang SC;
 }
 .ntime {
     height: 30px;
@@ -172,7 +176,8 @@ li a {
     margin: 0 auto;
     color: white;
     font-size: 18px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
+    font-family: PingFang SC;
 }
 .pagebottom{
     text-align:center;
