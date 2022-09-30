@@ -4,21 +4,20 @@
 }
 .divimg1 {
     height: 200px;
+    width:100%;
     background-image: url(picture/headpicture.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    background-attachment: local;
+    background-size: cover;
+
 }
 .divimg2 { /*视频界面头图*/
     height: 200px;
     background-image: url(picture/missyou.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    background-attachment: local;
+    background-size: cover;
+
 }
 
 
@@ -35,8 +34,6 @@ h4 {
     position: fixed;
     bottom: 10px;
     /*左右边距都为0，强迫其居中*/
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
 }
 body{
     background-color:#313151;
@@ -47,6 +44,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    display:flex;
 }
 li {
     float: left;
@@ -174,7 +172,7 @@ li a {
     margin: 0 auto;
     color: white;
     font-size: 18px;
-    padding-bottom:50px;
+    padding-bottom:20px;
 }
 .pagebottom{
     text-align:center;
