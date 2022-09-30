@@ -16,6 +16,15 @@
     background-attachment: fixed;
     background-size: contain;
 }
+.positonfixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
 h4 {
     color: white;
     text-align: center;
@@ -173,6 +182,16 @@ li a {
     color:white;
     padding-top:20px;
     padding-bottom:40px;
+}
+.indb{
+    margin:0 auto;
+}
+
+.indb td{
+    color:white;
+    font-family:宋体;
+    line-height:30px;
+    border-bottom: 1px solid white;
 }
 
 
