@@ -7,8 +7,8 @@
     width:100%;
     background-image: url(picture/headpicture.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-attachment: local;
+    background-size: cover;
 
 }
 .divimg2 { /*视频界面头图*/
@@ -19,10 +19,6 @@
     background-size: cover;
 
 }
-.occupy{
-    height:200px;
-}
-
 
 h4 {
     color: white;
