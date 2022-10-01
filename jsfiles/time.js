@@ -1,5 +1,11 @@
 ﻿// JavaScript source code
 
+var timehit = document.getElementsByClassName("time")[0];
+timehit.onclick = function timehit() {
+    alert("😶 不要点我");
+}
+
+
  /*计算日期，年月日 一秒钟刷新一次*/
  var tday = null;
  function daytime() {
@@ -33,3 +39,5 @@
  setInterval(function () {
      document.querySelector(".ntime").innerHTML = nowtime();
  }, 1000)
+
+

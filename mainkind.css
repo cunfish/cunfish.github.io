@@ -37,17 +37,25 @@ h4 {
 body{
     background-color:#313151;
 }
-ul {
+.navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    display:flex;
+    display: flex;
+    
+}
+
+/*导航栏的div*/
+.uldiv {
+/*    使导航栏在最前方显示 值越大越靠前*/
+    z-index: 10;
+    position: sticky;
+    top: 0px;
 }
 li {
     float: left;
-
 }
 
 li a {
@@ -79,6 +87,7 @@ li a {
     margin-top: 20px;
 
 }
+
 
 @-webkit-keyframes rotation {
 
