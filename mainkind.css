@@ -117,10 +117,15 @@ li a {
 .maintext {
     color: white;
     padding: 20px 15px;
+    margin: 15px 15px 0 15px;
     text-align: center;
     font-size: 15px;
     line-height: 30px;
+    /*字体设置，手机浏览器可能不生效*/
     font-family: SimSun;
+    border-radius: 25px;
+    border: 1px solid rgb(120 116 222 / 0.20);
+    background-color: rgb(120 116 222 / 0.20);
 }
 
 /*单独设置表格每一列的格式*/
@@ -153,65 +158,76 @@ li a {
 }
 /*当前时间字样样式*/
 .time{ 
-    top:30px;
-    height:30px;
+    height:25px;
     width:150px;
     line-height:30px;
     text-align:center;
-    margin:5px auto;
+    margin:0 auto;
+    padding-bottom:5px;
     color:#ffe9a1;
-    font-size:20px;
+}
+
+/*时间卡片样式*/
+.timecard {
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(54 106 248 / 0.15);
+    border: 1px solid rgb(54 106 248 / 0.1);
+    padding:5px;
+    margin: 0 auto;
 }
 /*时间样式*/
 .report {
-    height: 30px;
-    width: 200px;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
     margin: 0 auto;
     color: white;
-    font-size: 18px;
-    font-family: PingFang SC;
 }
 .ntime {
-    height: 30px;
-    width: 200px;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
     margin: 0 auto;
-    color: white;
-    font-size: 18px;
-    padding-bottom: 20px;
-    font-family: PingFang SC;
+    color: white;   
 }
 .pagebottom{
     text-align:center;
     color:white;
     padding-top:20px;
     padding-bottom:40px;
+    bottom:30px;
 }
 .indb{
-    margin:0 auto;
+    margin:20px auto;
+    width:auto;
 }
 
 .indb td{
     color:white;
     font-family:宋体;
     line-height:30px;
-    border-bottom: 1px solid white;
+    border-radius:15px;
+    background-color:rgb(255 233 161 / 0.10);
+    padding:0 10px 0 10px;
 }
 
 
 /*视频界面的样式*/
 .mvtitle {
-    padding: 10px 0 0 0;
+    padding: 5px 0 5px 0;
     margin: 0 auto;
     color: white;
     text-align: center;
     text-decoration: none;
+    border-radius:15px;
+    border: 1px solid rgb(54 106 248 / 0.2);
+    background-color: rgb(54 106 248 / 0.2);
+}
+.yourname {
+    color: white;
+    text-decoration: none;
 }
 
-.mvtitle img{
+.vdp img{
     margin:0 auto;
     height:210px;
     width:100%;
@@ -238,9 +254,10 @@ li a {
 .resourcelink {
     width: 80%;
     margin: 20px auto;
-    border: 1px solid gray;
-    border-radius:5px;
-
+    border: 1px solid rgb(120 116 222 / 0.20);
+    background-color: rgb(120 116 222 / 0.20);
+    border-radius: 25px;
+    padding: 10px 10px;
 }
 
 .resourcelink a{
@@ -248,8 +265,8 @@ li a {
     text-decoration:none;
     line-height:35px;
     font-size:18px;
-    border:1px solid #815d7f;
-    background-color:#815d7f;
+    border:1px solid rgb(255 233 161 / 0.40);
+    background-color:rgb(72 71 71 / 0.20);
 }
 .tdlink{
     color:white;
