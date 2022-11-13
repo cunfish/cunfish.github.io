@@ -11,7 +11,19 @@
     background-size: cover;
 
 }
-.divimg2 { /*视频界面头图*/
+.divimg1_1 {
+    height: 200px;
+    width:100%;
+    background-image: url(picture/headpicture.jpg);
+	background:rgb(0,0,0,0);
+    background-repeat: no-repeat;
+	/*指明背景图的位置，以下是背景相对于元素固定*/
+    background-attachment: local;
+    background-size: cover;
+
+}
+/*视频界面头图*/
+.divimg2 { 
     height: 200px;
     background-image: url(picture/missyou.jpg);
     background-repeat: no-repeat;
@@ -127,19 +139,25 @@ li a {
     border: 1px solid rgb(120 116 222 / 0.20);
     background-color: rgb(120 116 222 / 0.20);
 }
+.add{
+	height:30px;
+}
 
 /*单独设置表格每一列的格式*/
 .td1 {
     text-align:center;
     width: 30px;
+	border-radius:20px;
 }
 .td2 {
     text-align: center;
     width: 50px;
+	border-radius:20px;
 }
 .td3 {
     text-align: center;
     width: 100px;
+	border-radius:20px;
 }
 /*设置表格每一行样式*/
 .tr1 {
@@ -214,7 +232,7 @@ li a {
 /*视频界面的样式*/
 .mvtitle {
     padding: 5px 0 5px 0;
-    margin: 0 auto;
+    margin: 0 20px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -287,4 +305,11 @@ table {
     font-size: 15px;
     line-height: 30px;
     font-family: 宋体;
+}
+
+/*日志界面样式*/
+.update{
+	padding:0 7px;
+	border-radius:10px;
+	background:gray;
 }
