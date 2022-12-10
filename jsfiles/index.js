@@ -2,15 +2,12 @@
 
 var divimg1 = document.getElementsByClassName("divimg1")[0];
 divimg1.onclick = function divimg1() {
-    alert("🖐️ 你会记得我吗");
+    alert("🖐️ 你好，好久不见");
 }
-//var himg = document.getElementsByClassName("himg")[0];
-//himg.onclick = function himg() {
-//    alert("🙄 瞎点什么");
-//}
+
 var headtext = document.getElementsByClassName("headtext")[0];
 headtext.onclick = function headtext() {
-   alert("😶 村鱼是作者，SK？就只是SK而已。");
+   alert("😶 村鱼是作者哦。");
 }
 var indb = document.getElementsByClassName("indb")[0];
 indb.onclick = function indb() {
@@ -36,4 +33,3 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
     modal.style.display = "none";
 }
- 
